@@ -17,5 +17,5 @@ app.use('/', htmlRoute);
 app.use('/', apiRoute);
 
 app.listen(PORT, () =>
-  console.log(`Example app listening at http://localhost:${PORT}`)
+  console.log(`Listening at http://localhost:${PORT}`)
 );
